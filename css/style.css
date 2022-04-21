@@ -75,6 +75,7 @@ img {
 
 .btn:hover {
   background-color: #9144ec;
+  color: #fff;
 }
 
 .flex-between {
