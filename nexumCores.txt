@@ -1,7 +1,7 @@
 Roxo: #9144EC
 Azul: #2acfcf
 Cinza: #35323e
-Preto: #232127
+Cor escura: #11101D
 
 Roxo: Hover de botões, destaque
 Azul: Cor base, botões
@@ -11,10 +11,10 @@ Preto: Fundos, títulos destaque
 Variáveis CSS
 
 :root {
- roxo: #9144EC
- azul: #2acfcf
- cinza: #35323e
- preto: #232127
+ roxo: #9144EC;
+ azul: #2acfcf;
+ cinza: #35323e;
+ preto: #11101D;
 }
 
 Exemplo de uso
