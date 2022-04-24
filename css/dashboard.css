@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 .sidebar {
@@ -262,12 +264,18 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 810px) {
+    .cards {
+        padding: 0 10px 0 10px;
+    }
+  }
+
 .card-content {
     overflow: hidden;
     padding: 20px 20px 0 20px;
     background-color: #ffffff;
     height: 500px;
-    width: 700px;
+    width: 710px;
     border-radius: 7px;
     transition: all 0.2s;
 }
@@ -291,10 +299,36 @@
 }
 
 .card-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 2rem;
 }
 
-.card-text {
+.card-text{
+    font-size: 1rem;
+}
 
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-button .btn{
+    width: 150px;
+    background-color: #2acfcf;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #9144ec;
 }
