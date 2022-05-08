@@ -202,6 +202,7 @@
 .sidebar.open {
   width: 250px;
 }
+
 .sidebar.open .logo-details .icon {
   opacity: 1;
 }
