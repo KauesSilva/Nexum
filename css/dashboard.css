@@ -307,10 +307,11 @@
     font-size: 1rem;
 }
 
+.card-title,
+.card-text,
 .card-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .card-button .btn{
