@@ -12,7 +12,7 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form method="POST" action="../html/dashboard.html" class="sign-in-form" id="formLogin" onsubmit="mensagemLogin()">
+          <form method="POST" action="dashboard.html" class="sign-in-form" id="formLogin" onsubmit="mensagemLogin()">
             <h2 class="title">Login</h2>
             <div class="input-field">
               <i class="bi bi-envelope-fill"></i>
@@ -22,7 +22,7 @@
               <i class="bi bi-key-fill"></i>
               <input type="password" name="senha" placeholder=" Senha" id="senha" required />
             </div>
-            <input type="submit" value="Login" id="login" name="login" class="btn solid"/>
+            <input type="submit" value="Login" id="login" name="login" class="btn solid" onsubmit="javascript: window.open('dashboard.html');"/>
             <p class="social-text">Ou entre com as suas redes sociais</p>
             <div class="social-media">
               <a href="dashboard.html" class="social-icon">
