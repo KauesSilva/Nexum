@@ -18,7 +18,6 @@ function mensagemLogin() {
 		'Login realizado com sucesso!',
 		'success'
 	)		
-window.location.replace("http://www.w3schools.com");
 }
 
 function mensagemCadastro() {
