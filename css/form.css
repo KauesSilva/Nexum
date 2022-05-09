@@ -107,6 +107,22 @@ form.sign-in-form {
   font-weight: 500;
 }
 
+.input:invalid {
+	animation: shake 300ms;
+	color: #ff0000;
+}
+
+@keyframes shake {
+	25% {
+		transform: translateX(4px);
+	}
+	50% {
+		transform: translateX(-4px);
+	}
+	75% {
+		transform: translateX(4px);
+	}
+}
 .social-text {
   padding: 0.7rem 0;
   font-size: 1rem;

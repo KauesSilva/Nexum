@@ -12,20 +12,20 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="dashboard.html" method="POST" class="sign-in-form" id="formLogin">
+          <form action="dashboard.html" method="POST" class="sign-in-form" id="formLogin" onsubmit="mensagemLogin()">
             <h2 class="title">Login</h2>
             <div class="input-field">
               <i class="bi bi-envelope-fill"></i>
-              <input type="text" name="email" placeholder="E-mail" id="email" />
+              <input type="email" name="email" placeholder="E-mail" id="email" required />
             </div>
             <div class="input-field">
               <i class="bi bi-key-fill"></i>
-              <input type="password" name="senha"" placeholder=" Senha" id="senha" />
+              <input type="password" name="senha" placeholder=" Senha" id="senha" required />
             </div>
             <input type="submit" value="Login" id="login" name="login" class="btn solid" />
             <p class="social-text">Ou entre com as suas redes sociais</p>
             <div class="social-media">
-              <a href="dashboard.html" class="social-icon">
+              <a href="#" class="social-icon">
                 <i class="bi bi-facebook"></i>
               </a>
               <a href="#" class="social-icon">
@@ -39,19 +39,19 @@
               </a>
             </div>
           </form>
-          <form method="POST" action="dashboard.html" class="sign-up-form" id="formCadastro">
+          <form method="POST" action="dashboard.html" class="sign-up-form" id="formCadastro" onsubmit="mensagemCadastro()">
             <h2 class="title">Cadastre-se</h2>
             <div class="input-field">
               <i class="bi bi-person-fill"></i>
-              <input type="text" name="nome" id="nome" placeholder="Nome" />
+              <input type="text" name="nome" id="nome" placeholder="Nome" required />
             </div>
             <div class="input-field">
               <i class="bi bi-envelope-fill"></i>
-              <input type="email" name="email" id="email" placeholder="E-mail" />
+              <input type="email" name="email" id="email" placeholder="E-mail" required />
             </div>
             <div class="input-field">
               <i class="bi bi-key-fill"></i>
-              <input type="password" name="senha" id="senha" placeholder="Senha" />
+              <input type="password" name="senha" id="senha" placeholder="Senha" required />
             </div>
             <input type="submit" name="cadastrar" id="cadastrar" class="btn" value="Cadastrar" />
             <p class="social-text">Ou cadastre-se com suas redes sociais</p>
@@ -93,5 +93,7 @@
     </div>
     <script type="text/javascript" src="../js/form.js"></script>
     <script src="jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
   </body>
 </html>
